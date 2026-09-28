@@ -1,16 +1,30 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A quiz app where you pick a topic and a difficulty, answer 5 questions, and get your score at the end.
 
-Currently, two official plugins are available:
+**Live demo:** https://your-app.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Home](./screenshots/home.png)
+![Question](./screenshots/quiz.png)
+![Result](./screenshots/result.png)
 
-## React Compiler
+## Features
+- Choose from 4 topics and 3 difficulty levels
+- Questions fetched from the Open Trivia DB API, filtered by your choices
+- Instant feedback on each answer, progress bar and final score
+- Restart the same quiz or go back home
+- Dark / light theme that remembers your choice
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
+- React (Vite)
+- React Router (nested and dynamic routes: `/quiz/:topic/:difficulty`)
+- Context API + `useReducer` for quiz state
+- CSS Modules
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+```bash
+git clone https://github.com/YOUR-USERNAME/quiz-app.git
+cd quiz-app
+npm install
+npm run dev
+```
