@@ -2,7 +2,7 @@
 
 A quiz app where you pick a topic and a difficulty, answer 5 questions, and get your score at the end.
 
-**Live demo:** https://your-app.vercel.app
+**Live demo:** https://quiz-app-psi-one-60.vercel.app/
 
 ![Home](./screenshots/home.png)
 ![Question](./screenshots/quiz.png)
@@ -24,7 +24,7 @@ A quiz app where you pick a topic and a difficulty, answer 5 questions, and get 
 
 ## Run locally
 ```bash
-git clone https://github.com/https://quiz-app-psi-one-60.vercel.app/quiz-app.git
+git clone https://github.com/malislavonac/quiz-app.git
 cd quiz-app
 npm install
 npm run dev
