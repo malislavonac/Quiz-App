@@ -1,0 +1,41 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  padding: 14px;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--text);
+  background: var(--card);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.option:hover:not(:disabled) {
+  background: var(--bg);
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.correct {
+  background: var(--correct);
+  border-color: var(--correct);
+  color: white;
+}
+
+.wrong {
+  background: var(--wrong);
+  border-color: var(--wrong);
+  color: white;
+}
+
+.dimmed {
+  opacity: 0.5;
+}

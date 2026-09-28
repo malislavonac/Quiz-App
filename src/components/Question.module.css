@@ -1,0 +1,5 @@
+.question {
+  font-size: 1.25rem;
+  margin: 0 0 var(--space);
+  line-height: 1.4;
+}
