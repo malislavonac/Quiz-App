@@ -7,6 +7,7 @@ A quiz app where you pick a topic and a difficulty, answer 5 questions, and get 
 ![Home](./screenshots/home.png)
 ![Question](./screenshots/quiz.png)
 ![Result](./screenshots/result.png)
+![DarkMode](./screenshots/darkmode.png)
 
 ## Features
 - Choose from 4 topics and 3 difficulty levels
@@ -23,7 +24,7 @@ A quiz app where you pick a topic and a difficulty, answer 5 questions, and get 
 
 ## Run locally
 ```bash
-git clone https://github.com/YOUR-USERNAME/quiz-app.git
+git clone https://github.com/https://quiz-app-psi-one-60.vercel.app/quiz-app.git
 cd quiz-app
 npm install
 npm run dev
